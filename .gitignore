@@ -3,3 +3,4 @@ package-lock.json
 carousel
 .early.coverage
 coverage
+dist
