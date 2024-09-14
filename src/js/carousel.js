@@ -5,7 +5,8 @@ import { changeIndicatorOpacity, textLimiter } from "./utils.js";
 
 export function carouselSetup(_options = null) {
   let options = (_options == null) ? defaultOption : _options;
-  if (options === null) {
+  
+  if (_options === null) {
     console.warn("Carousel is running on default options.");
   }
 
@@ -14,7 +15,7 @@ export function carouselSetup(_options = null) {
     options.pop();
   }
 
-  if (!Array.isArray(options) && options !== null) {
+  if (!Array.isArray(options) && _options !== null) {
     throw new Error("Please provide options in proper format.");
   }
 
@@ -35,7 +36,7 @@ export function carouselSetup(_options = null) {
     carouselItem.style.display = "none";
     let description;
 
-    if(options === null){
+    if(_options === null){
       const { color } = defaultOption[i];
       description = defaultOption[i].text;
       carouselItem.style.backgroundColor = color;
