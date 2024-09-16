@@ -1,6 +1,6 @@
 {
   "name": "carousel24",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It is a carousel for vanilla javascript",
   "main": "dist/index.js",
   "keywords":["carousel", "slider", "image slider", "frontend", "javascirpt"],
