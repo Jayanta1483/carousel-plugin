@@ -1,12 +1,17 @@
 {
   "name": "carousel24",
   "version": "1.0.0",
-  "description": "",
+  "description": "It is a carousel for vanilla javascript",
   "main": "dist/index.js",
+  "keywords":["carousel", "slider", "image slider", "frontend", "javascirpt"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack watch",
     "dev-server": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jayanta1483/carousel-plugin.git"
   },
   "author": "Jayanta Sarkar",
   "license": "ISC",
